@@ -1,14 +1,18 @@
-# OpenFortiVPN Setup Script
+# :wrench: snippets.sh
+
+A collection of handy shell scripts.
+
+## OpenFortiVPN Setup Script
 
 This script allows you to securely connect to a Fortinet VPN using `openfortivpn` and retrieves your VPN password from the `pass` credential manager. It dynamically creates a configuration file to avoid storing passwords in plaintext.
 
-## Requirements
+### Requirements
 
 Ensure the following are installed on your system:
 - [**pass**](https://www.passwordstore.org/)
 - [**openfortivpn**](https://github.com/adrienverge/openfortivpn)
 
-## Setting up the script
+### Setting up the script
 
 1. Make the Script Executable
 
